@@ -6,7 +6,7 @@ spec:
   type: team
   profile:
     email: noreplay@infraOps.com
-  memberOf: []
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -16,7 +16,7 @@ spec:
   type: team
   profile:
     email: noreplay@platform-engineering.com
-  memberOf: []  
+  children: []
 ---  
 apiVersion: backstage.io/v1alpha1
 kind: User
