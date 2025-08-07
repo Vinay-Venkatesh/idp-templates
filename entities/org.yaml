@@ -1,12 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+  name: ml-infrastructure
+spec:
+  type: team
+  profile:
+    email: noreplay@infraOps.com
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
   name: ml-platform-engineering
 spec:
   type: team
   profile:
     email: noreplay@platform-engineering.com
-  memberOf: []
+  memberOf: []  
 ---  
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -16,4 +26,5 @@ spec:
   profile:
     displayName: VinayV
     email: vinay.venkatesh20@gmail.com
-  memberOf: [ml-platform-engineering]
+  memberOf: [ml-infrastructure, ml-platform-engineering]
+---
