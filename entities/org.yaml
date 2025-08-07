@@ -50,9 +50,6 @@ metadata:
 spec:
   type: team
   children: []
-  members:
-    - user1
-    - user2
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -61,9 +58,6 @@ metadata:
 spec:
   type: team
   children: []
-  members:
-    - user1
-    - user2
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -82,9 +76,6 @@ metadata:
 spec:
   type: team
   children: []
-  members:
-    - user1
-    - user2
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
