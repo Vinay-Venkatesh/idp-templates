@@ -73,8 +73,7 @@ spec:
   type: team
   children: []
   members:
-    - user1
-    - user2
+    - alex
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -95,8 +94,7 @@ spec:
   type: team
   children: []
   members:
-    - user1
-    - user2
+    - john
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -106,8 +104,7 @@ spec:
   type: team
   children: []
   members:
-    - user1
-    - user2
+    - steve
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -118,6 +115,8 @@ spec:
   profile:
     email: noreplay@infraOps.com
   children: []
+  members:
+    -  Vinay-Venkatesh
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -128,6 +127,8 @@ spec:
   profile:
     email: noreplay@platform-engineering.com
   children: []
+  members:
+    -  Vinay-Venkatesh  
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -137,7 +138,6 @@ spec:
   profile:
     displayName: VinayV
     email: vinay.venkatesh20@gmail.com
-  memberOf: [ml-infrastructure, ml-platform-engineering]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -147,7 +147,6 @@ spec:
   profile:
     displayName: Steve
     email: steve_co@org.com
-  memberOf: [falcon]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -157,7 +156,6 @@ spec:
   profile:
     displayName: John
     email: john_co@org.com
-  memberOf: [phoenix]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -167,5 +165,4 @@ spec:
   profile:
     displayName: Alex
     email: john_co@org.com
-  memberOf: [visionaries]
 ---
