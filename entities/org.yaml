@@ -129,7 +129,9 @@ spec:
   profile:
     displayName: VinayV
     email: vinay.venkatesh20@gmail.com
-  memberOf: [ml-infrastructure, ml-platform-engineering]      
+  memberOf:
+     - group:default/ml-infrastructure
+     - group:default/ml-platform-engineering
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -139,7 +141,8 @@ spec:
   profile:
     displayName: Steve
     email: steve_co@org.com
-  memberOf: [falcon]
+  memberOf:
+    - group:default/falcon
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -149,7 +152,8 @@ spec:
   profile:
     displayName: John
     email: john_co@org.com
-  memberOf: [phoenix]
+  memberOf:
+    - group:default/phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -159,5 +163,6 @@ spec:
   profile:
     displayName: Alex
     email: john_co@org.com
-  memberOf: [visionaries]
+  memberOf:
+    - group:default/visionaries
 ---
